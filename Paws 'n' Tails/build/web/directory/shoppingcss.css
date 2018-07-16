@@ -1,0 +1,49 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 20, 2017, 12:36:54 PM
+    Author     : Vinay
+*/
+
+.shoppingtitle
+  {
+      height:40px;
+     
+  }
+  
+      .shoppingtitle h2
+      {
+          font-weight: 400;
+ 
+  font-size: 80px;
+  font-family: Arial;
+	padding-top: 0px;
+	margin-top: 20px;
+	text-align: center;
+	 
+      }
+
+      .carttitle
+      {
+      height:40px;    
+      }
+      
+      .carttitle h4
+      {
+      font-weight:400;
+      font-size:40px;
+      font-family: Arial;
+      padding-bottom:40px;
+      margin-top:40px;
+      text-align:center;
+      }
+      
+      .tabledetails
+      {
+      margin-bottom: 40px;    
+      }
+      
+    

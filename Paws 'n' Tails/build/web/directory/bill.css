@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2017, 4:01:15 PM
+    Author     : Vinay
+*/
+
+
+@media print {
+  .printpagebutton {
+    display: none;
+  }
+}
+
+.billsecdetails
+{
+    font-family:Harrington;
+     line-height: 1em;
+  font-size: 30px;
+  padding-right: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.finalbill
+{
+display:block;
+font-family: Harrington;
+font-size:20px;
+}

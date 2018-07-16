@@ -1,0 +1,50 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2017, 8:02:39 PM
+    Author     : Vinay
+*/
+
+ h2
+  {
+  font-family: 'Roboto Condensed', sans-serif;    
+  font-size: 40px;
+  }
+      
+       .welcometitle
+  {
+      height:80px;
+  }
+  
+      .welcometitle h1
+      {
+          font-weight: 900;
+ 
+  font-size: 80px;
+  font-family: arial;
+	padding-top: 0px;
+	margin-top: 20px;
+	text-align: center;
+	
+      }
+     
+         
+      .container
+      {
+      text-align:center;    
+      }
+      
+      
+      
+ 
+
+        
+        .btn{
+            margin-top: 20px;
+            
+        }
+
+  
