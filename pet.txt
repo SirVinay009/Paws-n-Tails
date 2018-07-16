@@ -1,0 +1,17 @@
+create database pet;
+use pet;
+
+create table accessory(ID int primary key not null,ACCESSORYTYPE varchar(50),ACCESSORYDESC varchar(1000),ACCESSORYPRICE float,ACCESSORYSTOCK int,ACCESSORYIMAGE longblob);
+
+create table admn(id int primary key not null,ADMINNAME varchar(50),ADMINEMAIL varchar(50),ADMINPASSWORD varchar(50));
+
+create table customers(CustID int primary key not null, CustName varchar(50),CustPhone varchar(50),CustEmail varchar(50),CustPassword varchar(50),CustAddress varchar(50),CustCity varchar(50),CustState varchar(50),CustPincode varchar(50));
+
+create table feedback(ID int primary key not null,Email varchar(50),FirstName varchar(50),Comments varchar(50));
+
+create table orders(ID int primary key not null,AMOUNT float,CUSTADRS varchar(50),CUSTEMAIL varchar(50),CUSTNAME varchar(50),CUSTPHONE varchar(50),ORDERDATE date);
+
+create table payment(ID int primary key unique not null,EmailVerify varchar(50),ContactNo varchar(50),FromDate date,ToDate date,ShippingAddress varchar(50));
+
+create table pet(ID int primary key not null,PETBREED varchar(50),PETDESC varchar(1000),PETPRICE float,PETSTOCK int,PETIMAGE longblob);
+
